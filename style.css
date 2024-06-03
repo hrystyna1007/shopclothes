@@ -1,0 +1,136 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Стилі для заголовка */
+header {
+    background-color: #f0eeee;
+    padding: 20px;
+
+   
+}
+.top-bar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nave ul {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    color:#272626;
+  }
+  
+  nave ul li {
+    margin-right: 10px;
+  }
+  
+  nave ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+  }
+  
+  nave ul li a:hover {
+    background-color: #ddd;
+  }
+
+/* Стилі для навігації */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Стилі для розділу "Пропозиції тижня" */
+#featured {
+    text-align: center;
+    padding: 50px;
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Стилі для підвалу */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.product:hover {
+    background-color: #ccc;
+}
+
+.product:hover .product-image img,
+.product:hover .product-details h3,
+.product:hover .product-details .price,
+.product:hover .product-details .btn {
+    color: gray;
+}
+.product-details a.btn { 
+        display: inline-block; 
+     
+        margin-top: 10px;
+         padding: 8px 16px;
+          background-color: #c45a5a; 
+        color: white;
+         text-decoration: none; transition: background-color 0.3s; border-radius: 4px; border: none; } 
+         .product-details a.btn:hover { background-color: #918888; }
+         /* CSS for dropdown menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* CSS for dropdown links */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+/* Show the dropdown when the "Контакти" link is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+        

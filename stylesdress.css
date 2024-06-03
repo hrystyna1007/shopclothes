@@ -1,0 +1,149 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Стилі для заголовка */
+header {
+    background-color: #f0eeee;
+    padding: 20px;
+
+   
+}
+.top-bar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nave ul {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    color:#272626;
+  }
+  
+  nave ul li {
+    margin-right: 10px;
+  }
+  
+  nave ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+  }
+  
+  nave ul li a:hover {
+    background-color: #ddd;
+  }
+
+/* Стилі для навігації */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Стилі для розділу "Пропозиції тижня" */
+#featured {
+    text-align: center;
+    padding: 50px;
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Стилі для підвалу */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.product-details a.btn { 
+    display: inline-block; 
+    margin-top: 10px;
+     padding: 8px 16px;
+      background-color: #c45a5a; 
+    color: white;
+     text-decoration: none; transition: background-color 0.3s; border-radius: 4px; border: none; } 
+     .product-details a.btn:hover { background-color: #918888; }
+     .color-button{
+        width: 50px;
+        height: 80px;
+        border: none;
+        margin: 20px;
+        cursor: none;
+     }
+     .product {
+        display: flex;
+      }
+      
+      .photo-column {
+        flex-basis: 50%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .text-column {
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      .product-image {
+        margin-bottom: 10px;
+      }
+      
+      .product-description {
+        margin-bottom: 20px;
+      }
+      
+      .color-picker {
+        display: flex;
+        
+      }
+      
+      .color-button {
+        width: 30px;
+        height: 30px;
+        border: none;
+        margin: 5px;
+      }
+      
+
+  
+ 
+  
